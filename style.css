@@ -1,0 +1,259 @@
+
+/* image styling */
+.carousel-inner img {
+    width: 80%;
+    height:100%;
+    padding: 10px 0px !important;
+    display: flex;
+    margin:auto;
+    justify-content: center;
+  }
+.slideshow{
+   
+   /* background-color:rgb(31, 30, 30); */
+   border:5px solid black;
+    width: 80%;
+}
+#image{
+    display: flex;
+    justify-content: center;
+    padding: 50px 0px;
+}
+
+/* headlines */
+  .headline{
+      font-size: 40px;
+      /* color:white; */
+      padding: 0px 0px !important;
+      text-align: center;
+      font-weight: bolder;
+      /* background-color: black; */
+      margin: 30px auto;
+      font-family:Arial, Helvetica, sans-serif ;
+  }
+  .input-field{
+      padding: 30px;
+      
+      text-align: center;
+  }
+  .table,thead,tbody,th,td{
+      border:3px solid black;
+      font-family:Arial, Helvetica, sans-serif ;
+     
+      text-align: center;
+  }
+th{
+    background-color:rgb(43, 40, 40);
+    color:white;
+    font-size: 20px;
+    padding: 10px 5px;
+    border:1px solid white;
+
+}
+td{
+    padding: 10px 5px !important;
+    font-size: 15px;
+    
+}
+
+  input{
+    padding: 5px 5px;
+    
+    border: 1px solid #a4c3ca;
+    background: #f1f1f1;
+    border-radius: 5px;
+    width: 60%;
+    color: black;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25) inset, 0 1px 0 rgba(255, 255, 255, 1);
+    font-size: 20px !important;
+  }
+  button{
+    
+    margin-top: 20px ;
+    border-radius: 5px !important;
+    padding:5px 10px;
+    font-family:'Times New Roman', Times, serif ;
+    font-weight: bold;
+    color:white;
+    font-size: 20px !important;
+    background-color: rgb(31, 30, 30);
+    
+    border-radius: 5px;
+    
+  }
+  body{
+     background-color:rgb(240, 238, 238)   !important;
+     /* color:white;  */
+  }
+  .outputarea{
+      display: flex;
+      justify-content: center;
+      width: 80%;
+      margin: auto;
+     
+  }
+  p{
+      font-size: 20px;
+      font-family:Arial, Helvetica, sans-serif ;
+  }
+
+  /* reponse on 600px */
+@media screen and (min-width:600px) {
+    .headline{
+        font-size: 50px;
+        color:da;
+        padding: 0px 0px !important;
+        text-align: center;
+        font-weight: bolder;
+        /* background-color: black; */
+        margin: 30px auto;
+        font-family:Arial, Helvetica, sans-serif ;
+    }
+    
+}
+
+/* reponse on 700px */
+  @media screen  and (min-width:700px){
+    th{
+        background-color: rgb(43, 40, 40);
+        color:white;
+        font-size: 25px;
+        padding: 10px 20px !important;
+        border:1px solid white;
+    
+    }
+    td{
+        padding: 10px 20px !important;
+        font-size: 20px;
+    }
+    button{
+        border-radius: 5px !important;
+        font-family:'Times New Roman', Times, serif ;
+        font-weight: bold;
+        color:white;
+        font-size: 25px !important;
+        background-color: rgb(31, 30, 30);
+      }
+      input{
+        padding: 5px 5px;
+        
+        border: 1px solid #a4c3ca;
+        background: #f1f1f1;
+        border-radius: 5px;
+        width: 40%;
+        color: black;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25) inset, 0 1px 0 rgba(255, 255, 255, 1);
+        font-size: 25px !important;
+      }
+      
+  }
+
+
+
+
+
+
+  /* navbar style */
+  .navbar1 {
+    background-color: #333;
+    top: 0;
+    display:flex;
+    justify-content: left;
+  }
+  
+  /* Style the navigation bar links */
+  .navbar1 a {
+    color: white;
+    font-size: 20px;
+    padding: 10px 10px;
+    text-decoration: none;
+
+    
+  }
+  
+  
+  /* Right-aligned link */
+  .navbar1 a.right {
+    float: right;
+  }
+  
+  /* Change color on hover */
+  .navbar1 a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .navbararea{
+      display:flex;
+      justify-content: left ;
+      background-color:#333;
+      margin-bottom: 20px;
+  }
+
+
+  /* footer style */
+  #footer1{
+
+      padding: 10px 15px;
+      border-top: 2px solid black;
+      text-align: left;
+     
+      
+  }
+  i{
+    padding: 10px 10px;
+      float:right;
+  }
+  #footer1 i:hover{
+      color: blue;
+      
+  }
+
+  #notes{
+    font-family:Arial, Helvetica, sans-serif ;
+      padding: 50px 50px;
+     background-color: rgb(211, 207, 207); 
+     margin: 20px 0px;
+     /* width: 500px; */
+      font-size: 25px;
+      border-radius: 30px;
+      border:1px solid rgb(250, 244, 244);
+     
+  }
+  #notes p{
+      font-size: 18px;
+      font-weight:none !important;
+     
+  }
+
+  /* reponse on 590px */
+  @media screen  and (min-width:590px){
+    #notes{
+        font-family:Arial, Helvetica, sans-serif ;
+          padding: 50px 50px;
+         background-color: rgb(211, 207, 207); 
+         margin: 20px 60px;
+         /* width: 500px; */
+          font-size: 25px;
+          border-radius: 30px;
+          border:1px solid rgb(250, 244, 244);
+         
+      }
+      #footer1{
+
+        padding: 10px 15px;
+        border-top: 2px solid black;
+        text-align: left;
+       
+        
+    }
+  }
+
+  .carousel-control-prev-icon{
+      
+      background-color: black !important;
+  }
+  .carousel-control-next-icon{
+      
+    background-color: black !important;
+}
